@@ -1,6 +1,6 @@
 import psycopg2
 import glob
-conn = psycopg2.connect(database="hague",
+conn = psycopg2.connect(database="packform",
                         user='postgres', password='Techleadz12*', 
                         host='localhost', port='5432'
 )
